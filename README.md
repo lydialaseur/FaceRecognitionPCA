@@ -1,1 +1,2 @@
 # FaceRecognitionPCA
+A MATLAB function that uses PCA for facial recognition by reducing the dimensionality of the image data to a vector of 16 elements, allowing efficient use of the Euclidean distance to compare two images. Training set consists 16, 92x92, grayscale images of unique faces. Test set consists of 4 images, where each one features a face included in the training set with some differing characteristic, e.g. change in facial expression, change in lighting or angle of the photo, or addition or removal of glasses. 
